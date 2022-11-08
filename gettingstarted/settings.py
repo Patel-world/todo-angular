@@ -71,7 +71,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://patel-world.github.io",
-    "https://patel-world.github.io/todo-angular/"
+    "https://todo-rest-ng.herokuapp.com/"
     
 ]
 
