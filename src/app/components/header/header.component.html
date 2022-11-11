@@ -1,0 +1,23 @@
+<div class="container">
+    
+    <div *ngIf="loggedIn">
+      <div id="logged"></div>
+      <div class="grid2"><h3>Task Tracker</h3><app-button color="{{showAddTask?'red':'green'}}" text="{{showAddTask?'close':'Add'}}" (btnClick)="toggleTask()"></app-button></div>
+      
+    
+    <app-tasks></app-tasks>
+    </div>
+    <div *ngIf="!loggedIn">
+      
+      <div class="grid2"><h3>Task Tracker</h3><p class="alert">login to add</p>
+        <app-button color="{{loggedIn?'red':'green'}}" text="{{'login'}}"></app-button></div>
+        <div id="buttonDiv"></div>
+      
+      
+    </div>
+
+    
+  </div>
+
+  
+  
