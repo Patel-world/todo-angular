@@ -71,7 +71,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://patel-world.github.io",
-    "https://todo-rest-ng.herokuapp.com"
+    "http://localhost:4200",
+    "http://localhost:58286"
     
 ]
 

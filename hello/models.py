@@ -6,6 +6,7 @@ class Greeting(models.Model):
 
 
 class Todo(models.Model):
+    user=models.TextField(default='guest')
     id=models.AutoField(primary_key=True)
     created = models.DateTimeField(auto_now_add=True)
     text=models.CharField(max_length=200)

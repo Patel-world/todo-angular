@@ -17,7 +17,7 @@ class TodoListView(APIView):
 
     def post(self, request):
         a=request.data
-        d={"text":f"{a['text']}","reminder":f"{a['reminder']}","day":f"{a['day']}"}
+        d={"user":f"{a['user']}","text":f"{a['text']}","reminder":f"{a['reminder']}","day":f"{a['day']}"}
 
         serializer = TodoSerializer(data=d)
         
@@ -32,8 +32,8 @@ class TodoUpdate(generics.UpdateAPIView):
         a=request.data
         print(a)
         old = get_object_or_404(Todo, id=pk)
-        d={"text":f"{a['text']}","reminder":f"{a['reminder']}","day":f"{a['day']}"}
-        
+        d={"user":f"{a['user']}","text":f"{a['text']}","reminder":f"{a['reminder']}","day":f"{a['day']}"}
+       
         serializer = TodoSerializer(data=d,instance=old)
         if serializer.is_valid():
             serializer.save()
