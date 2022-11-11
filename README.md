@@ -32,5 +32,3 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 <h4 style="colo:blue">with function to add Todo</h4>
 <img src="https://i.imgur.com/F4bjlx9.png" alt="Alt text" title="Optional title">
 
-<h4 style="colo:blue">with contact form option</h4>
-<img src="https://i.imgur.com/HrGI81j.png" alt="Alt text" title="Optional title">
