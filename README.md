@@ -9,7 +9,7 @@ and can be seen live here <a href="https://patel-world.github.io/todo-angular/">
 
 Our backend is built over django rest framework 
 code can be found on <a href="https://github.com/Patel-world/todo-angular/tree/backend">backend</a>
-and can be seen live here <a href="https://todo-rest-ng.herokuapp.com/todos/">https://estatery-drf.herokuapp.com/rentals/<a>
+and can be seen live here <a href="https://todo-rest-ng.herokuapp.com/todos/">https://todo-rest-ng.herokuapp.com/todos/<a>
 
 ## Development server
 
